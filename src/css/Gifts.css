@@ -1,9 +1,24 @@
 .gifts{    
   height: 100vh;
-  background: red; 
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  flex-wrap: nowrap;
 }
 
 .card {
     width: 200px;
     height: 250px;
+    margin: 10px;
+    cursor: pointer;
+    
 }
+.lovejar-remove {
+  width: 100%;
+  height: 100%;
+}
+
+
