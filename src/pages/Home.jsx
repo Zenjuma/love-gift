@@ -10,7 +10,9 @@ export default function Home(){
            <h1 className="fs-1 title">Happy Christmas</h1>
            <p className="normal">Do you want to see your little gift?</p>
 
-           <button type="button" class="btn btn-light btn-md me-4 rounded-4">Yes Please</button>
+           <button type="button"
+            className="btn btn-light btn-md me-4 rounded-4"
+            onClick={() =>  window.location.href = "/gifts"}>Yes Please</button>
            <button type="button" class="btn btn-light btn-md ms-4 rounded-4">No Thanks</button>
            
 
