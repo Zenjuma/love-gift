@@ -1,12 +1,16 @@
 .val {
-    font-family: 'Allura', cursive;
+    font-family: "Great Vibes", cursive;
+    /* font-family: "Allura", cursive; */
+    /* font-family: "Pacifico", cursive; */
   }
   
   .title {
     font-family: 'Playfair Display', serif;
   }
   
-  .normal {
-    font-family: 'Montserrat',;
+  .normal{
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: 'Playfair Display', serif;
+    
   }
   
