@@ -8,7 +8,7 @@ export default function Home(){
            
            <h2 className="fs-2 val">Hi Baby</h2>
            <h1 className="fs-1 title">Happy Christmas</h1>
-           <p className="text">Do you want to see your little gift?</p>
+           <p className="normal">Do you want to see your little gift?</p>
 
            <button type="button" class="btn btn-light btn-md me-4">Yes Please</button>
            <button type="button" class="btn btn-light btn-md ms-4">No Thanks</button>
