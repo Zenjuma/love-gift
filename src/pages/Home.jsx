@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 export default function Home() {
   return (
-    <div className="container text-center">
+    <div className="container text-center bg">
       <h2 className="fs-2 val">Hi Babe ❤️</h2>
       <h1 className="fs-1 title">Happy Valentine</h1>
       <p className="normal">Do you want to open your gift?</p>
