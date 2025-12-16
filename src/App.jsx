@@ -1,6 +1,6 @@
 import './css/App.css'
 import Home from './pages/Home'
-import Gifts from './pages/gifts'
+import Gifts from './pages/Gifts'
 import BrokenHeartPage from './pages/HeartBreak'
 
 import { Routes, Route } from 'react-router-dom'
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/gifts" element={<Gifts />} />
+        <Route path="/gifts" element={<Gifts/>} />
         <Route path="/heartbreak" element={<BrokenHeartPage />} />
       </Routes>
     </div>
