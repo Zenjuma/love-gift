@@ -1,14 +1,25 @@
 import './css/App.css'
 import Home from './pages/Home'
 
+import {Routes,Route} from 'react-router-dom'
+
 function App() {
   
 
   return (
-    <>
-    <Home/>
-     
-    </>
+    < div className="app">
+   
+  
+    <Routes>
+      <Route  path="/"  element={ <Home/>}/>
+       <Route  path="/home"  element={ <Home/>}/>
+
+    </Routes>
+
+   
+
+
+    </div>
   )
 }
 

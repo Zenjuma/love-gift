@@ -10,11 +10,12 @@ export default function Home(){
            <h1 className="fs-1">Happy Christmas</h1>
            <p>Do you want to see your little gift?</p>
 
-           <button type="button" class="btn btn-light btn-sm me-4">Small button</button>
-           <button type="button" class="btn btn-light btn-sm ms-4">Small button</button>
+           <button type="button" class="btn btn-light btn-md me-4">Yes Please</button>
+           <button type="button" class="btn btn-light btn-md ms-4">No Thanks</button>
            
 
         </div>
        
     )
 }
+
