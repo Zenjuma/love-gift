@@ -1,15 +1,16 @@
 import "../css/Gifts.css"
 
 
+
 export default function Gifts(){
     return (
         <div className="container gifts text-center home align-content-center" >
             <h1 className="title">THESE ARE FOR YOU</h1>
             <p>Click to open</p>
 
-    <div className="mb-3  d-flex justify-content-evenly">
+    <div className="mb-3  d-flex justify-content-evenly cards">
 
-    <div className="card me-2  " >
+    <div className="card  " >
   
   <div className="card-body">
     <h5>Light card title</h5>
@@ -17,7 +18,7 @@ export default function Gifts(){
   </div>
   </div>
 
-  <div className="card me-2" >
+  <div className="card " >
 
    <div className="card-body">
     <h5>Light card title</h5>
@@ -33,6 +34,7 @@ export default function Gifts(){
   </div>
 </div>
 </div>
+
 
 
         </div>
