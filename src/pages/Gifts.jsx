@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Button from "../components/Button";
 import "../css/Gifts.css";
 
@@ -43,7 +43,9 @@ export default function Gifts() {
           </div>
 
           <div className="card">
+             <Link to="/video">
             <img src="/headphoneicon.png" alt="" className="lovejar-remove" />
+            </Link>
           </div>
 
           <div className="card">

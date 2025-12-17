@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import JarContents from './pages/Jarcontents'
 import Gifts from './pages/Gifts'
+import { Youtube } from './pages/Youtube'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/gifts" element={<Gifts/>} />
+        <Route path="/video" element={<Youtube/>} />
           <Route path="/jarcontents" element={<JarContents />} />
         <Route path="/heartbreak" element={<BrokenHeartPage />} />
       </Routes>
