@@ -8,23 +8,28 @@ export default function JarContents() {
       <h1 className="title">JAR OF LOVE</h1>
       <h4 className="normal">Four Reasons Why I Love You</h4>
 
-      <div className="col w-50">
-        <div className=" text-danger">
-          <div className="row bg-light pb-5 ">hi</div>
-          <div className="row bg-light pb-5">hi</div>
+      
+        <div class="container text-center text-danger">
+  <div class="row">
+    <div class="col  bg-light  m-4 rounded-5">
+      You feel like home
+    </div>
+    <div class="col  bg-light  m-4 rounded-5">
+      You love me gently
+    </div>
+  </div>
 
-        </div>
 
-      </div>
+      <div class="row">
+    <div class="col  bg-light  m-4 rounded-5">
+      You show up consistently
+    </div>
+    <div class="col  bg-light  m-4 rounded-5">
+      You see me fully
+    </div>
+  </div>
 
-      <div className="col w-50">
-        <div className=" text-danger">
-          <p className="row bg-light pb-5 ">hi</p>
-          <p className="row bg-light pb-5">hi</p>
-
-        </div>
-
-      </div>
+</div>
 
 
 
