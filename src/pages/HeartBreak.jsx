@@ -6,21 +6,21 @@ import '../css/HeartBreak.css'
 import {Link} from 'react-router-dom';
 
 
-
 export default function BrokenHeartPage() {
 
 
   return (
     <div
-      className="d-flex align-items-center justify-content-center min-vh-100 position-relative overflow-hidden  p-3  bg"
+      className="d-flex align-items-center justify-content-center min-vh-100 position-relative overflow-hidden    bg "
 
     >
    
     
 
 
-  <HeartbreakFill className="text-white" size={80}  />
+
    
+   <img src="/public/assets/lfbr.png" alt=""  className="hurtImoji"/>
 
 
 
@@ -33,9 +33,7 @@ export default function BrokenHeartPage() {
             transition={{ repeat: Infinity, duration: 2 }}
             className="mb-3"
           >
-            <HeartbreakFill className="text-white" size={80} />
-
-
+             <img src="/public/assets/cry.png" alt=""  className="cry"/>
           </motion.div> 
 
 
@@ -55,11 +53,25 @@ export default function BrokenHeartPage() {
            
 
           </div>
+          <div className="row mt-5 d-flex justify-content-between">
+
+            
+            <img src="/public/assets/lfbr.png" alt=""  className="hurtImoji col"/>
+          <img src="/public/assets/rtbr.png" alt=""  className="hurtImoji col"/>
+
+
+          </div>
+
+         
         </div>
 
-        <HeartbreakFill className="text-white" size={80}  />
+        <img src="/public/assets/rtbr.png" alt=""  className="hurtImoji"/>
+
 
      
     </div>
+
+
+
   );
 }

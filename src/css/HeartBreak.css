@@ -1,8 +1,18 @@
 .hurt{
-    background: red;
+    background: rgb(238, 24, 24);
 }
 
 .bg{
     background: linear-gradient(140deg, red, rgb(73, 2, 2));
 
 }
+
+.hurtImoji{
+height: 170px;
+width: 170px;
+}
+
+.cry{
+    height: 200px;
+    width: 200px;
+    }
