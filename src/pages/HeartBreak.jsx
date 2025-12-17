@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { HeartbreakFill } from "react-bootstrap-icons";
 import '../css/HeartBreak.css'
@@ -11,7 +11,7 @@ export default function BrokenHeartPage() {
 
   return (
     <div
-      className="d-flex align-items-center justify-content-center min-vh-100 position-relative overflow-hidden    bg "
+      className="d-flex align-items-center justify-content-center min-vh-100 position-relative overflow-hidden    "
 
     >
    
@@ -53,7 +53,7 @@ export default function BrokenHeartPage() {
            
 
           </div>
-          <div className="row mt-5 d-flex justify-content-between">
+          <div className="row mt-5 d-flex justify-content-center">
 
             
             <img src="/public/assets/lfbr.png" alt=""  className="hurtImoji col"/>

@@ -16,7 +16,8 @@
   
   body{
     color: white;
-    background: linear-gradient(140deg, red, rgb(73, 2, 2));
+    /* background: linear-gradient(140deg, red, rgb(73, 2, 2)); */
+    background: url("/public/assets/bgImage.png");
     background-repeat: no-repeat;
    
   }
