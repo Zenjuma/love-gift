@@ -6,13 +6,12 @@ import '../css/HeartBreak.css'
 import {Link} from 'react-router-dom';
 
 
-
 export default function BrokenHeartPage() {
 
 
   return (
     <div
-      className="d-flex align-items-center justify-content-center min-vh-100 position-relative overflow-hidden  p-3  bg"
+      className="d-flex align-items-center justify-content-center min-vh-100 position-relative overflow-hidden  p-3  bg "
 
     >
    
