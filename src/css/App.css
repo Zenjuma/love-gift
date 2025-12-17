@@ -16,5 +16,16 @@
   
   body{
     color: white;
-     background: linear-gradient(140deg, red, rgb(73, 2, 2));
+    background: linear-gradient(140deg, red, rgb(73, 2, 2));
+    background-repeat: no-repeat;
+   
+  }
+
+  .back{
+    bottom: 16px;
+    left: 16px;
+    margin: 16px;
+    position: fixed;
+    float: left;
+
   }
