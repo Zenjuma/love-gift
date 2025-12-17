@@ -1,24 +1,30 @@
-.gifts{    
+.gifts {
   height: 100vh;
+  overflow-x: hidden;
+}
+
+.cards-wrapper {
+  transform-origin: top center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .cards {
   display: flex;
-  justify-content: space-evenly;
   gap: 1.5rem;
   flex-wrap: nowrap;
+  width: fit-content;
 }
 
 .card {
-    width: 200px;
-    height: 250px;
-    margin: 10px;
-    cursor: pointer;
-    
+  width: 200px;
+  height: 250px;
+  cursor: pointer;
 }
+
 .lovejar-remove {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
-
-
