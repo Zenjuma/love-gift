@@ -1,0 +1,26 @@
+.love-svg {
+  /* transform: rotate(-8deg); */
+}
+
+.svg-content {
+  color: white;
+  font-family: "Georgia", serif;
+}
+
+.svg-content h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.svg-content p {
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.svg-content h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+

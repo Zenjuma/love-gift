@@ -49,8 +49,12 @@ export default function Gifts() {
           </div>
 
           <div className="card">
+          <Link to="/message">
             <img src="/envelope.png" alt="" className="lovejar-remove" />
-          </div>
+            </Link>
+          </div> 
+
+
         </div>
       </div>
 
