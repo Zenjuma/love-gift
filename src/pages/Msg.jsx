@@ -58,12 +58,12 @@ export default function Msg() {
           <div className="svg-content text-center">
             <h2>Happy Birthday baby ♡</h2>
 
-            {/* <p>
+             <p>
               You are truly the best thing that has ever happened to me.
               Loving you has changed my life in the most beautiful ways,
               and every day with you reminds me how lucky I am.
             </p>
-            <p>
+          {/*  <p>
               May this new year bring you peace, love, laughter,
               and all the little moments that make your heart smile.
             </p> */}
