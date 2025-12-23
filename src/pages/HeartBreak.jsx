@@ -53,11 +53,16 @@ export default function BrokenHeartPage() {
            
 
           </div>
-          <div className="row mt-5 d-flex justify-content-center">
 
-            
+          <div className=" mt-5 d-flex justify-content-center w-100 ">
+
+            <div className="row hardLove">
+
             <img src="/public/assets/lfbr.png" alt=""  className="hurtImoji col"/>
-          <img src="/public/assets/rtbr.png" alt=""  className="hurtImoji col"/>
+
+<img src="/public/assets/rtbr.png" alt=""  className="hurtImoji col"/>
+            </div>
+     
 
 
           </div>
