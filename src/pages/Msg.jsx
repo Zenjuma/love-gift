@@ -7,7 +7,7 @@ export default function Msg() {
       <svg
         className="love-svg"
         width="460"
-        height="320"
+        height="650"
         viewBox="0 0 460 320"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -54,22 +54,23 @@ export default function Msg() {
         />
 
         {/* CONTENT */}
-        <foreignObject x="55" y="45" width="350" height="400">
+        <foreignObject x="55" y="45" width="350" height="600">
           <div className="svg-content text-center">
             <h2>Happy Birthday baby ♡</h2>
 
-            <p>
+            {/* <p>
               You are truly the best thing that has ever happened to me.
               Loving you has changed my life in the most beautiful ways,
               and every day with you reminds me how lucky I am.
             </p>
-
             <p>
               May this new year bring you peace, love, laughter,
               and all the little moments that make your heart smile.
-            </p>
+            </p> */}
 
-            <h3>I LOVE YOU</h3>
+          
+
+            {/* <h3>I LOVE YOU</h3> */}
           </div>
         </foreignObject>
       </svg>
