@@ -1,0 +1,23 @@
+.title {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.normal {
+  opacity: 0.85;
+}
+
+.bg-light {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.bg-light:hover {
+  transform: scale(1.05);
+}
+
+
+.love-icon {
+    fill: white;
+}
+
