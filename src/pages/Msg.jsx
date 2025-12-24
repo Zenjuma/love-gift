@@ -1,81 +1,109 @@
+
+
 import "../css/Message.css";
+import { Link } from "react-router-dom";
+
 
 
 export default function Msg() {
   return (
-    <div className="container d-flex justify-content-center align-items-center min-vh-100">
-      <svg
-        className="love-svg"
-        width="460"
-        height="320"
-        viewBox="0 0 460 320"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <defs>
-          <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#7a0c10" />
-            <stop offset="100%" stopColor="#a31218" />
-          </linearGradient>
+    <div className="container ">
+      <h2 className="text-center title mt-4">CHRISTMAS MESSAGE</h2>
 
-          {/* Soft carved shadow */}
-          <filter id="carvedShadow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur in="SourceAlpha" stdDeviation="6" />
-            <feOffset dx="8" dy="10" result="offsetblur" />
-            <feColorMatrix
-              in="offsetblur"
-              type="matrix"
-              values="
-                0 0 0 0 0
-                0 0 0 0 0
-                0 0 0 0 0
-                0 0 0 0.45 0
-              "
-            />
-            <feMerge>
-              <feMergeNode />
-              <feMergeNode in="SourceGraphic" />
-            </feMerge>
-          </filter>
-        </defs>
+      <div className="d-flex justify-content-center align-items-center">
+        <svg
+          className="love-svg"
+          viewBox="0 0 460 380" 
+          width="100%"         
+          style={{ maxWidth: "600px" }}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#7a0c10" />
+              <stop offset="100%" stopColor="#a31218" />
+            </linearGradient>
 
-        {/* 🔻 WAVY SHADOW (same path, slightly offset) */}
-        <path
-          d={SCALLOP_PATH}
-          transform="translate(10 12)"
-          fill="#4b080b"
-          opacity="0.45"
-        />
+            <filter id="carvedShadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur in="SourceAlpha" stdDeviation="6" />
+              <feOffset dx="8" dy="10" result="offsetblur" />
+              <feColorMatrix
+                in="offsetblur"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0"
+              />
+              <feMerge>
+                <feMergeNode />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+          </defs>
 
-        {/* 🔴 MAIN CARD */}
-        <path
-          d={SCALLOP_PATH}
-          fill="url(#cardGrad)"
-          filter="url(#carvedShadow)"
-        />
+          <path
+            d={SCALLOP_PATH}
+            transform="translate(10 12)"
+            fill="#4b080b"
+            opacity="0.45"
+          />
 
-        {/* CONTENT */}
-        <foreignObject x="55" y="45" width="350" height="400">
-          <div className="svg-content text-center">
-            <h2>Happy Birthday baby ♡</h2>
+          <path
+            d={SCALLOP_PATH}
+            fill="url(#cardGrad)"
+            filter="url(#carvedShadow)"
+          />
 
-            <p>
-              You are truly the best thing that has ever happened to me.
-              Loving you has changed my life in the most beautiful ways,
-              and every day with you reminds me how lucky I am.
+        
+          <foreignObject x="60" y="60" width="340" height="220">
+            <div className="svg-content text-center">
+              <div className="scroll-container">
+               
+
+
+                <h2>Merry Chrismas baby ♡</h2>
+
+
+              <p>               You are truly the best thing that has ever happened to me.
+               Loving you has changed my life in the most beautiful ways,
+               and every day with you reminds me how lucky I am. 
+          
+                </p> 
+
+                <p>You bring so much light,calm and joy into my world and just being with you makes everything feel right.
             </p>
+             <p>
+               I wish you most beautiful chrismas filled with love,laughter,peace and all the little moments that make your heart happy.
+              </p>
 
-            <p>
-              May this new year bring you peace, love, laughter,
-              and all the little moments that make your heart smile.
-            </p>
+              <p>
+               May this new year bring you everything you deserve and more. I am grateful for you today and always.
+             </p> 
+             <h3>I LOVE YOU</h3> 
 
-            <h3>I LOVE YOU</h3>
-          </div>
-        </foreignObject>
-      </svg>
+       
+          
+
+         
+                
+             
+              
+              </div>
+            </div>
+          </foreignObject>
+        </svg>
+      </div>
+
+     
+        <Link to="/gifts" className="position-fixed btn btn-light text-danger fw-bolder">
+          <i className="bi bi-arrow-left-short me-2"></i>
+          Back
+        </Link>
+    
     </div>
   );
 }
+
+
+
 
 const SCALLOP_PATH = `
 M25 15

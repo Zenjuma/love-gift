@@ -1,23 +1,60 @@
+
+.jar-page {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .title {
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.normal {
-  opacity: 0.85;
+
+.jar-layout {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  width: 90%;
+  max-width: 1100px;
 }
 
-.bg-light {
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reason {
+  background: #f8f9fa;
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
   cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-.bg-light:hover {
-  transform: scale(1.05);
+  text-align: center;
+  white-space: nowrap;
 }
 
 
-.love-icon {
-    fill: white;
+.jar {
+  height: 60vh;
+  max-height: 600px;
 }
 
+
+@media (max-width: 768px) {
+  .jar-layout {
+    width: 100%;
+    grid-template-columns: 1fr auto 1fr;
+  }
+
+  .jar {
+    height: 45vh;
+  }
+}

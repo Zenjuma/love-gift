@@ -5,7 +5,7 @@ export function Youtube(){
 
         <div className="d-flex justify-content-center container mt-5 vh-100 ">
             <div className="col">
-            <h2 className="mb-5 text-center">THIS SONG REMINDS ME OF YOU</h2>
+            <h2 className="mb-5 title text-center">THIS SONG REMINDS ME OF YOU</h2>
 
             <video
             className="h-50"

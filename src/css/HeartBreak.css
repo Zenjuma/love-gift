@@ -7,6 +7,16 @@
 
 }
 
+.broken-right{
+    transform: rotate(-16deg);
+
+  }
+
+  .broken-left{
+    transform: rotate(16deg);
+
+  }
+
 .hurtImoji{
 height: 170px;
 width: 170px;
@@ -15,4 +25,10 @@ width: 170px;
 .cry{
     height: 200px;
     width: 200px;
+    }
+
+    .hardLove{
+ 
+        width:  400px;
+     
     }
