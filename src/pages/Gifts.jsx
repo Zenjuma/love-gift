@@ -58,7 +58,7 @@ export default function Gifts() {
         </div>
       </div>
 
-      <Button />
+      <Button route={"/"} />
     </div>
   );
 }

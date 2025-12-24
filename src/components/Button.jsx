@@ -1,16 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import "../css/Button.css";
+import { Link } from "react-router-dom";
 
-export default function Button() {
-  const navigate = useNavigate();
+export default function Button({route}) {
 
   return (
-    <div 
-      className="btn btn-light m-5"
-      onClick={() => navigate(-1)}
-    >
-      <i className="bi bi-caret-left back-btn text-danger"></i>
-      Back
-    </div>
+    <Link to= {route} className=" back btn btn-light text-danger fw-bolder " >
+        <i className="bi bi-arrow-left-short me-2 "></i>
+        Back
+        </Link>
   );
 }

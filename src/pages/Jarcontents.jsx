@@ -23,7 +23,7 @@ export default function JarContents() {
         </div>
       </div>
 
-      <Button />
+      <Button route= {"/gifts"}/>
     </div>
   );
 }
