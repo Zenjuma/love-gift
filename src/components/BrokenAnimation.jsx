@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import brokenAnimation from "/public/assets/Broken.json";
+import brokenAnimation from "/src/assets/Broken.json";
 
 function BrokenAnimation() {
   return (

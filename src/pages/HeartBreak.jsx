@@ -19,7 +19,7 @@ export default function BrokenHeartPage() {
           transition={{ repeat: Infinity, duration: 2 }}
           className="mb-3"
         >
-          <img src="/public/assets/cry.png" alt="" className="cry" />
+          <img src="/assets/cry.png" alt="" className="cry" />
         </motion.div>
 
         <h3 className="fw-bold  title">I promise you will love it</h3>

@@ -16,13 +16,8 @@ export function Youtube(){
       autoPlay
       loop
     >
-      {/* <source src="/public/assets/Iyanii - Unanifaa240.mp4" type="video/mp4" media="(max-width: 300px)" />
-
-      <source src="/public/assets/Iyanii - Unanifaa480.mp4" type="video/mp4" media="(max-width: 600px)" />
-     
-      <source src="/public/assets/Iyanii_ Unanifaa720.mp4" type="video/mp4" /> */}
-
-      <source src="/public/assets/Iyanii_ Unanifaa720.mp4" type="video/mp4" />
+    
+      <source src="/assets/Iyanii_ Unanifaa720.mp4" type="video/mp4" />
 
       Your browser does not support the video tag.
     </video>
