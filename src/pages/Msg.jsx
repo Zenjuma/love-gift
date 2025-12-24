@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function Msg() {
   return (
     <div className="container ">
-      <h2 className="text-center mt-4">CHRISTMAS MESSAGE</h2>
+      <h2 className="text-center title mt-4">CHRISTMAS MESSAGE</h2>
 
       <div className="d-flex justify-content-center align-items-center">
         <svg
@@ -64,16 +64,29 @@ export default function Msg() {
 
               <p>               You are truly the best thing that has ever happened to me.
                Loving you has changed my life in the most beautiful ways,
-               and every day with you reminds me how lucky I am. You bring so much light,calm and joy into my world and just being with you makes everything feel right.
+               and every day with you reminds me how lucky I am. 
+          
+                </p> 
+
+                <p>You bring so much light,calm and joy into my world and just being with you makes everything feel right.
             </p>
              <p>
-               I wish you most beautiful birthday filled with love,laughter,peace and all the little moments that make your heart happy.
+               I wish you most beautiful chrismas filled with love,laughter,peace and all the little moments that make your heart happy.
+              </p>
+
+              <p>
                May this new year bring you everything you deserve and more. I am grateful for you today and always.
              </p> 
+             <h3>I LOVE YOU</h3> 
 
+         {/* <p>
+          I wish to replace this sweet message with how i feel about i thought i was special to you such that you even spent some days with me after school was closed , it did not take long before knowing i was not special it was your after you spent with someone else 3 days. I dont know even where i stand any more and the part that hurts most you are just showing it to me and acting rude and like someone who does nt care not wanting to explain or talking to me and when you are not ignoring my calls it is my chats and when you reply its is lies dam you are good at this as much as i keep being distructed by activity am doing what you are doing keeps hurting me . current if i was to  sent you a song i will send Space by TK Kravity ft Sexton especially that part where it says 'Sometimes i just want say FUCK YOU' but i know you will just treat it normal infact nop you will take it as advantage for you to hurt me more.
+
+
+         </p> */}
           
 
-            <h3>I LOVE YOU</h3> 
+         
                 
              
               

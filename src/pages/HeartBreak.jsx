@@ -22,7 +22,7 @@ export default function BrokenHeartPage() {
           <img src="/public/assets/cry.png" alt="" className="cry" />
         </motion.div>
 
-        <h3 className="fw-bold">I promise you will love it</h3>
+        <h3 className="fw-bold  title">I promise you will love it</h3>
 
         <div className="d-flex  mt-5 justify-content-center">
           <Link
