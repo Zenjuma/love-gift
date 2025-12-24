@@ -79,11 +79,7 @@ export default function Msg() {
              </p> 
              <h3>I LOVE YOU</h3> 
 
-         {/* <p>
-          I wish to replace this sweet message with how i feel about i thought i was special to you such that you even spent some days with me after school was closed , it did not take long before knowing i was not special it was your after you spent with someone else 3 days. I dont know even where i stand any more and the part that hurts most you are just showing it to me and acting rude and like someone who does nt care not wanting to explain or talking to me and when you are not ignoring my calls it is my chats and when you reply its is lies dam you are good at this as much as i keep being distructed by activity am doing what you are doing keeps hurting me . current if i was to  sent you a song i will send Space by TK Kravity ft Sexton especially that part where it says 'Sometimes i just want say FUCK YOU' but i know you will just treat it normal infact nop you will take it as advantage for you to hurt me more.
-
-
-         </p> */}
+       
           
 
          
